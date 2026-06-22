@@ -1,0 +1,47 @@
+*,*::before,*::after{box-sizing: border-box;}
+body{margin: 0;
+    padding: 20px;
+
+display: flex;
+align-items: center;
+justify-content: center;
+font-size: 20px;
+
+background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+                      url('image/logo_soa.jpg');
+    
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 100vh;
+    
+    /* Couleur du texte par défaut pour contraster avec le fond */
+    color: white;
+}
+.col{width: 210mm;
+    height: 297mm;
+    display: flex;
+    
+    box-shadow: 0 0 15px rgba(0, 0, 0, 3);
+overflow: hidden;
+
+}
+.colgauche{width: 50%;
+    height: 98%;
+    background-color: grey;
+    color: #FFFF;
+    margin: 10px;
+text-align: justify;
+border-radius: 20px;
+}
+.coldroite{width: 50%;
+    height: 53%;
+    background-color: yellowgreen;
+    color: black;
+margin: 10px;
+text-align: justify;
+border-radius: 20px;
+}
+.spec{text-align: center;
+font-style:;}
